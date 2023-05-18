@@ -130,7 +130,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-navi-blue);
+  color: var(--color-bg-hover);
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -149,7 +149,7 @@ p {
 }
 
 .nav-link:hover {
-  color: var(--color-naviblue-hover);
+  color: var(--color-naviblue-hove);
 }
 
 .nav-link:focus {
@@ -226,6 +226,7 @@ p {
   color: var(--color-hero-bttext);
   background-color: var(--color-hero-bt);
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover {
@@ -394,6 +395,8 @@ p {
   height: 100%;
   margin: 0;
   padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .desc-proffecion-link:hover {
@@ -448,6 +451,8 @@ p {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list-link:hover,
@@ -486,6 +491,7 @@ p {
   padding: 12px 24px;
   border: 1px solid var(--color-portgolio-btn);
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio:hover,
