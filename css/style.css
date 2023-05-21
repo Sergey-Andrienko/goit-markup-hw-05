@@ -553,7 +553,9 @@ p {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-list-item:hover .portfolio-list-text {
+.portfolio-list-item:hover .portfolio-list-text,
+.portfolio-list-item:focus .portfolio-list-text
+ {
   transform: translateY(0%);
 }
 
@@ -657,7 +659,7 @@ p {
   top: 50%;
   left: 50%;
   width: 408px;
-  min-height: 576px;
+  min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
