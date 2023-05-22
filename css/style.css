@@ -553,8 +553,11 @@ p {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-list-item:hover .portfolio-list-text,
-.portfolio-list-item:focus .portfolio-list-text {
+.portfolio-list-item:hover .portfolio-list-text {
+  transform: translateY(0%);
+}
+
+.portfolio-link:focus .portfolio-list-text {
   transform: translateY(0%);
 }
 
